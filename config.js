@@ -3,7 +3,7 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : '94766943622';
+global.owner = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : '+254705306694';
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://Suhail_Md:Suhail_Md@cluster1.0tlyzhm.mongodb.net/?retryWrites=true&w=majority" ;
 global.port= false // Math.floor(Math.random() * (9999 - 1000 + 1)) + 1000  ; 
 global.audio = '' ; 
