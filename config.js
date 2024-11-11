@@ -4,7 +4,7 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 //═══════[Required Variables]════════\\
 global.owner = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : '+254705306694';
-global.mongodb = process.env.MONGODB_URI || "mongodb+srv://Suhail_Md:Suhail_Md@cluster1.0tlyzhm.mongodb.net/?retryWrites=true&w=majority" ;
+global.mongodb = process.env.MONGODB_URI || "mongodb+srv://wipetmpc9dce:VbgCBOHb0XfetT8w@cluster0.jmw27.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0" ;
 global.port= false // Math.floor(Math.random() * (9999 - 1000 + 1)) + 1000  ; 
 global.audio = '' ; 
 global.video = '' ;
@@ -21,7 +21,7 @@ global.scan  = process.env.QR_URL || 'https://replit.com/@VajiraRathnayak/KING-V
 global.website = 'https://github.com/vajirabot1/KING-VAJIRA-MD' ; //wa.me/+923000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/fb7993e24f7ecdaecbed5.jpg' ;
 module.exports = {
-  sessionName: process.env.SESSION_ID || "VAJIRA;;;CuisineMeddle",      //Put Your Session Id Here
+  sessionName: process.env.SESSION_ID || "VAJIRA;;;EnormousCorners",      //Put Your Session Id Here
   botname: process.env.BOT_NAME || 'ᴠᴀᴊɪʀᴀ-ᴍᴅ',
   botbgm: process.env.BOT_BGM || 'true',
   ownername:  process.env.OWNER_NAME || `MECH`,
